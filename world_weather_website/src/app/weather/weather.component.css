@@ -1,0 +1,53 @@
+h1
+{
+    margin-right: 0.25ch; font-size: 8vw; font-weight: bold;    
+}
+.bg-image{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+}
+
+.temp{
+    font-size: 8vh;
+    color: white;
+    display: flex;
+    margin-bottom: 0em;
+}
+
+.weather-content{
+    color: #FFFFFF;
+    box-shadow: 0em 0em 0.5em 0em #57575788;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1ch;
+    position: relative;
+    z-index: 0.5;
+    background-image: url('https://wallpaperaccess.com/full/1388129.jpg');
+    padding: 2em 1em 1em 2em;
+    backdrop-filter: blur(1.75em);
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 10em;
+   
+}
+:-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:white; 
+  }
